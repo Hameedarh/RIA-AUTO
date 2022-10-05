@@ -1,0 +1,12 @@
+.nav-container{
+    background: rgb(52,152,219);
+    background: linear-gradient(213deg, rgba(52,152,219,1) 11%, rgba(198,226,245,1) 49%, rgba(255,255,255,1) 64%, rgba(198,226,245,1) 100%);
+    padding: 8px;
+    /* width: 100%; */
+}
+.navwidth{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}

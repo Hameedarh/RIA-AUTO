@@ -1,0 +1,20 @@
+.topdiv{
+    background-color: #c0392b;
+    padding: 8px;
+    /* width: 100%; */
+}
+.topwidth{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.con-div, .social-div{
+    display: flex;
+    gap: 20px;
+}
+.map-div{
+    display: flex;
+    gap: 5px;
+    color: #ebc3b2;
+}
