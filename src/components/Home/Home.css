@@ -58,15 +58,15 @@
 .top-but button{
     padding: 15px 30px;
     border-radius: 4px;
-    border: 1px solid #49c02b;
-    background-color:#49c02b ;
+    border: 1px solid rgb(61, 46, 145);
+    background-color:rgb(61, 46, 145) ;
     color:white ;
     font-family: 'Bree Serif', sans-serif;
 }
 .top-but button:hover{
-    border: 1px solid white;
-    background-color:white;
-    color:#49c02b ;
+  border: 1px solid white;
+  background-color:white;
+  color:rgb(61, 46, 145) ;
 }
 @media screen and (max-width:1050px){
   .text-div{
