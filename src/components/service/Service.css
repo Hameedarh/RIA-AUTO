@@ -59,6 +59,9 @@
     }
 }
 @media screen and (max-width:500px){
+    .service-cont h1{
+        font-size: 1.5rem;
+    }
     .serdiv{
         display: flex;
         flex-direction: column;

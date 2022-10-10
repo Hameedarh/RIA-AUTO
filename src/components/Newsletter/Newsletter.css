@@ -21,3 +21,30 @@
     justify-content: space-between;
     outline: black;
 }
+@media screen and (max-width:800px){
+    .News-cont h1{
+        font-size: 1.5rem;
+    }
+}
+@media screen and (max-width:500px){
+    .News-cont{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 70px 0px 20px;
+    }
+}
+@media screen and (max-width:350px){
+    .News-cont h1{
+        font-size: 1rem;
+    }
+}
+@media screen and (max-width:280px){
+    .News-cont h1{
+        font-size: 1rem;
+    }
+    .news-div{
+        width: 200px;
+    }
+}

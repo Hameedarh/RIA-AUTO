@@ -59,3 +59,32 @@
 .gmap_iframe{
     width:100%; 
 }
+@media screen and (max-width:800px){
+    .con-container{
+        height: 800px;
+    }
+    .con-cont{
+        flex-direction: column;
+    }
+    .map{
+        width: 100%;
+    }
+    .mapouter{
+        height: 360px;
+    }
+    .gmap_canvas {
+        height:360px;
+    }
+    .gmap_iframe {
+        height:360px!important;
+    }
+}
+@media screen and (max-width:500px){
+    .con-head{
+        font-size: 1.5rem;
+        margin-bottom: 10px;
+    }
+    .con-icons h3{
+        font-size: 1rem;
+    }
+}

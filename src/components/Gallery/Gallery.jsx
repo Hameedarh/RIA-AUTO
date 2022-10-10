@@ -32,6 +32,18 @@ function Gallery() {
                     <img src={ria6} alt="gallery"/>
                 </div>
             </div>
+            <div className="slide-show">
+                <div class="slide-container">
+                    <div class="slide-wrapper">
+                        <img src={ria1} alt="gallery"/>
+                        <img src={ria2} alt="gallery"/>
+                        <img src={ria4} alt="gallery"/>
+                        <img src={ria5} alt="gallery"/>
+                        <img src={ria4} alt="gallery"/>
+                        <img src={ria6} alt="gallery"/>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
   )
