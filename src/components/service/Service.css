@@ -45,3 +45,33 @@
     border-top-right-radius: 20px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
+@media screen and (max-width:1050px){
+    .serdiv1{
+        word-spacing: 10px;
+    }
+}
+@media screen and (max-width:800px){
+    .serdiv1 h2{
+        font-size: 1.2rem;
+    }
+    .service-container{
+        height: 600px;
+    }
+}
+@media screen and (max-width:500px){
+    .serdiv{
+        display: flex;
+        flex-direction: column;
+    }
+    .serdiv1 h2{
+        font-size: 0.9rem;
+    }
+    .serdiv2{
+        padding-left: 30px;
+        /* color: #49c02b; */
+        border-left: 1px solid #49c02b;
+        margin-top: 30px;
+        font-size: 0.9rem;
+    }
+    
+}

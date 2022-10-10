@@ -16,8 +16,47 @@
     display: flex;
     gap: 20px;
 }
+.loc-div{
+    display: flex;
+    gap: 10px;
+}
 .map-div{
     display: flex;
     gap: 5px;
     color: white;
+}
+@media screen and (max-width:800px){
+    .topwidth h4{
+        font-size: 12px;
+    }
+    
+}
+@media screen and (max-width:500px){
+    .topdiv{
+        height: 80px;
+    }
+    .topwidth{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .con-div{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 5px;
+    }
+}
+@media screen and (max-width:250px){
+    .topdiv{
+        height: 100px;
+    }
+    .topwidth h4{
+        font-size: 10px;
+    }
+    .loc-div{
+        display: block;
+    }
 }

@@ -5,6 +5,7 @@ import ria2 from '../../assets/ria12.jpg'
 import ria3 from '../../assets/ria13.jpg'
 import ria4 from '../../assets/ria14.jpg'
 import ria5 from '../../assets/ria15.jpg'
+import ria6 from '../../assets/ria16.jpg'
 
 function Gallery() {
   return (
@@ -26,6 +27,9 @@ function Gallery() {
                 </div>
                 <div className='img-cont'>
                     <img src={ria3} alt="gallery"/>
+                </div>
+                <div className='img-cont'>
+                    <img src={ria6} alt="gallery"/>
                 </div>
             </div>
         </div>

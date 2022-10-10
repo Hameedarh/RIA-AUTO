@@ -16,8 +16,8 @@
     /* margin: 0 auto; */
     /* opacity: 1; */
     position: absolute;
-    top: 30%;
-    left: 7%;
+    top: 33%;
+    left: 9rem;
     text-align: center;
     color: white;
 }
@@ -68,4 +68,57 @@
     background-color:white;
     color:#49c02b ;
 }
-
+@media screen and (max-width:1050px){
+  .text-div{
+    left: 8.3rem;
+  }
+}
+@media screen and (max-width:800px){
+  .text-div{
+    left: 6rem;
+  }
+}
+@media screen and (max-width:500px){
+  .text-div h1{
+   font-size: 2rem;
+  }
+  .text-div{
+    left: 3rem;
+  }
+  .text-div p{
+    font-size: 1rem;
+    word-spacing: 0.4rem;
+}
+}
+@media screen and (max-width:350px){
+  .text-div h1{
+    font-size: 1.5rem;
+   }
+   .text-div{
+     left: 2rem;
+   }
+   .text-div p{
+      text-align: center;
+     font-size: 1rem;
+     word-spacing: 0.4rem;
+ }
+ .top-but button{
+  padding: 15px 30px;
+  font-size: 12px;
+  }
+  .dark-bg img, .dark-bg{
+    height: 600px;
+  }
+}
+@media screen and (max-width:350px){
+  .text-div h1{
+    font-size: 1rem;
+   }
+   .text-div p{
+    font-size: 0.8rem;
+   }
+   .top-but button{
+    padding: 10px 20px;
+    font-size: 10px;
+    }
+}

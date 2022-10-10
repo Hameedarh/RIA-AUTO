@@ -1,6 +1,7 @@
 import React from 'react'
 import './NavBar.css'
 import paint from '../../assets/carbg.png'
+import Middle from '../Middle/Middle'
 
 function NavBar() {
   return (
@@ -11,16 +12,18 @@ function NavBar() {
                 <h3>RIA AUTOREFURBISH</h3>
             </div>
             <nav className='nav-bar'>
-                {/* <h3>RIA AUTOREFURBISH</h3> */}
                 <ul>
                     <a href='#Home'><li>Home</li></a>
                     <a href='#services'><li>Service</li></a>
-                    <a href='#contact'><li>Contact</li></a>
                     <a href='#gallery'><li>Gallery</li></a>
+                    <a href='#contact'><li>Contact</li></a>
                 </ul>
             </nav>
             <div className='but-nav'>
                 <button className='nav-but'>Make an Appointment</button>
+            </div>
+            <div className='ham'>
+                <Middle/>
             </div>
         </div>
     </div>
