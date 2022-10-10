@@ -1,0 +1,23 @@
+.News-container{
+    width: 100%;
+    background: beige;
+    font-family:  'Bree Serif', sans-serif;
+    margin: 0 auto;
+    height: 200px;
+}
+.News-cont{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 0px 0px;
+}
+.news-div{
+    border: 1px solid #49c02b;
+    width: 300px;
+    /* border-radius: 4px; */
+    padding: 6px;
+    display: flex;
+    justify-content: space-between;
+    outline: black;
+}

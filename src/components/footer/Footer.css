@@ -1,0 +1,17 @@
+.foot-container{
+    width: 100%;
+    background: #152235;
+    color: white;
+    font-family:  'Bree Serif', sans-serif;
+    margin: 0 auto;
+    height: 50px;
+}
+.foot-cont{
+    width: 80%;
+    margin: 0 auto ;
+    padding: 12px 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding: 100px 0px 0px; */
+}

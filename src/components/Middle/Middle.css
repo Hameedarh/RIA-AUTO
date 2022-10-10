@@ -1,0 +1,13 @@
+.mid-container{
+    width: 100%;
+    background-image:url(../../assets/ria4.jpg) ;
+    background-size: contain;
+    background-repeat: repeat-x;
+    font-family:  'Bree Serif', sans-serif;
+    margin: 0 auto;
+    height: 300px;
+}
+.mid-cont{
+    width: 80%;
+    margin: 0 auto ;
+}

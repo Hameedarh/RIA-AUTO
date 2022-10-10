@@ -13,11 +13,11 @@ function Topbar() {
                 </div>
                 <div className='map-div'>
                     <Phone size={20} />
-                    <h4>08163764664</h4>
+                    <a href="https://wa.me/08163764664" ><h4>08163764664</h4></a>
                 </div>
                 <div className='map-div'>
                     <EnvelopeOpen size={20} />
-                    <h4>abisolahamidat@gmail.com</h4>
+                    <a href="mailto:abisolahamidat@gmail.com"><h4>abisolahamidat@gmail.com</h4></a>
                 </div>
             </div>
             <div className='social-div'>

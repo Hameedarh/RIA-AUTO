@@ -1,7 +1,10 @@
 .topdiv{
-    background-color: #c0392b;
-    padding: 8px;
-    /* width: 100%; */
+    position: fixed;
+    position: absolute;
+    z-index: 2;
+    background-color: #49c02b;
+    padding: 3px;
+    width: 100%;
 }
 .topwidth{
     width: 80%;
@@ -16,5 +19,5 @@
 .map-div{
     display: flex;
     gap: 5px;
-    color: #ebc3b2;
+    color: white;
 }
