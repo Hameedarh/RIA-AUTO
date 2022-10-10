@@ -13,7 +13,7 @@
     padding: 150px 0 20px;
     text-align: center;
     /* margin: 20px 0; */
-    color: rgb(61, 46, 145) ;
+    color: #043c7c ;
 }
 .serdiv{
     display: flex;
@@ -24,8 +24,8 @@
 }
 .serdiv2{
     padding-left: 30px;
-    /* color: rgb(61, 46, 145) ; */
-    border-left: 1px solid rgb(61, 46, 145) ;
+    /* color: #043c7c ; */
+    border-left: 1px solid #043c7c ;
 }
 .bord-sec{
     display: flex;
@@ -40,7 +40,7 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    border: 1px solid rgb(61, 46, 145) ;
+    border: 1px solid #043c7c ;
     border-bottom-left-radius: 20px;
     border-top-right-radius: 20px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
@@ -71,8 +71,8 @@
     }
     .serdiv2{
         padding-left: 30px;
-        /* color: rgb(61, 46, 145) ; */
-        border-left: 1px solid rgb(61, 46, 145) ;
+        /* color: #043c7c ; */
+        border-left: 1px solid #043c7c ;
         margin-top: 30px;
         font-size: 0.9rem;
     }

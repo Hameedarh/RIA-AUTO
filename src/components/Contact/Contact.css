@@ -15,7 +15,7 @@
 }
 .con-container h1{
     text-align: center;
-    color: rgb(61, 46, 145) ;
+    color: #043c7c ;
     padding: 100px 0 0px;
 }
 .con-head{
@@ -27,8 +27,8 @@
     margin-bottom: 30px;
 }
 .round-div{
-    background-color: rgb(61, 46, 145) ;
-    border: 1px solid rgb(61, 46, 145) ;
+    background-color: #043c7c ;
+    border: 1px solid #043c7c ;
     border-radius: 50%;
     display: flex;
     justify-content: center;

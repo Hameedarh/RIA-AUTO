@@ -11,7 +11,7 @@
 }
 .gal-cont h1{
     text-align: center;
-    color: rgb(61, 46, 145) ;
+    color: #043c7c;
     padding: 150px 0 20px;
 }
 .img-container{
@@ -22,7 +22,7 @@
     gap: 20px;
 }
 .img-cont{
-    border: 1px solid rgb(52,152,219);
+    border: 1px solid #043c7c;
     width: 250px;
     height: 300px;
     border-bottom-left-radius: 20px;

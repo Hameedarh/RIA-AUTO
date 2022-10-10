@@ -10,7 +10,7 @@ function NewsLetter() {
         <div>
             <div className="news-div">
                 <CustomInput title="email" type="text" style={{backgroundColor:"beige"}}/>
-                <Envelope size={32} color="rgb(61, 46, 145) "/>
+                <Envelope size={32} color="#043c7c"/>
             </div>
         </div>
       </div>
