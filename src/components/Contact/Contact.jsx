@@ -9,7 +9,7 @@ function Contact() {
             <div>
                 <div className='con-icons'>
                     <div className='round-div'>
-                        <House size={32} color="white" background="white" />
+                        <House size={32} color="#152235" background="#152235" />
                     </div>
                     <div>
                         <h3>Location</h3>
@@ -19,7 +19,7 @@ function Contact() {
                 </div>
                 <div className='con-icons'>
                     <div className='round-div'>
-                        <Phone size={32} color="white" background="white" />
+                        <Phone size={32} color="#152235" background="#152235" />
                     </div>
                     <div>
                         <h3>Phone Number</h3>

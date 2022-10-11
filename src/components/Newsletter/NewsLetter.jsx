@@ -9,8 +9,8 @@ function NewsLetter() {
         <h1>Subscribe Today For Newsletter</h1>
         <div>
             <div className="news-div">
-                <CustomInput title="email" type="text" style={{backgroundColor:"beige"}}/>
-                <Envelope size={32} color="#043c7c"/>
+                <CustomInput title="email" type="text" style={{backgroundColor:"whitesmoke"}}/>
+                <Envelope size={32} color="rgb(52,152,219)"/>
             </div>
         </div>
       </div>

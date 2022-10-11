@@ -49,7 +49,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-    color:#043c7c;
+    color:black;
     font-size: 20px;
     /* margin-right: 10rem; */
 }
@@ -77,15 +77,15 @@
   height: 50px;
     padding: 10px;
     border-radius: 4px;
-    border: 1px solid #043c7c;
-    background-color:#043c7c ;
+    border: 1px solid black;
+    background-color: black;
     color:white ;
     font-family: 'Bree Serif', sans-serif;
 }
 .nav-but:hover{
-    border: 1px solid white;
-    background-color:white;
-    color:rgba(52,152,219,1) ;
+    border: 1px solid black;
+    background-color:rgba(52,152,219,1);
+    color:white ;
 }
 @media screen and (max-width:1050px){
   .nameimg h3{

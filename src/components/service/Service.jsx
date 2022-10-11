@@ -12,7 +12,7 @@ function Service() {
                     high quality sikkens products for painting with post paint maintenance service.</h2>
                 </div>
                 <div className='serdiv2'>
-                    <p>We use <span style={{color:"#043c7c "}}>High-Quality</span> paints, automated baking oven, car waxing/buffing to ensure high quality of service is delivered to our prestigious clients/customers </p>
+                    <p>We use <span style={{color:"rgb(52,152,219) "}}>High-Quality</span> paints, automated baking oven, car waxing/buffing to ensure high quality of service is delivered to our prestigious clients/customers </p>
                 </div>
             </div>
             {/* <section className='bord-sec'>

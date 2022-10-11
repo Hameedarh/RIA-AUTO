@@ -1,6 +1,6 @@
 .News-container{
     width: 100%;
-    background: beige;
+    background: whitesmoke;
     font-family:  'Bree Serif', sans-serif;
     margin: 0 auto;
     height: 200px;
@@ -13,7 +13,7 @@
     padding: 100px 0px 0px;
 }
 .news-div{
-    border: 1px solid #043c7c ;
+    border: 1px solid rgb(52,152,219) ;
     width: 300px;
     /* border-radius: 4px; */
     padding: 6px;

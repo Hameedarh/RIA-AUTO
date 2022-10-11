@@ -1,6 +1,6 @@
 .service-container{
     width: 100%;
-    background: beige;
+    background: whitesmoke;
     font-family:  'Bree Serif', sans-serif;
     margin: 0 auto;
     height: 700px;
@@ -13,7 +13,7 @@
     padding: 150px 0 20px;
     text-align: center;
     /* margin: 20px 0; */
-    color: #043c7c ;
+    color: rgb(52,152,219) ;
 }
 .serdiv{
     display: flex;
