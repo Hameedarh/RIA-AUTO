@@ -77,11 +77,12 @@
   .text-div{
     left: 6rem;
   }
-}
-@media screen and (max-width:500px){
   .dark-bg, .dark-bg img{
     height: 600px;
   }
+}
+@media screen and (max-width:500px){
+  
   .text-div h1{
    font-size: 2rem;
   }
