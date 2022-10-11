@@ -99,7 +99,11 @@
     }
 }
 @media screen and (max-width:500px){
+    .gal-container{
+        height: 500px;
+    }
     .gal-cont h1{
+        padding: 80px 0 20px;
         font-size: 1.5rem;
     }
 }
