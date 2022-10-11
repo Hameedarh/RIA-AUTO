@@ -29,7 +29,7 @@ function Contact() {
                 </div>
                 <div className='con-icons'>
                     <div className='round-div'>
-                        <Envelope size={32} color="white" background="white" />
+                        <Envelope size={32} color="#152235" background="#152235" />
                     </div>
                     <div>
                         <h3>Email</h3>

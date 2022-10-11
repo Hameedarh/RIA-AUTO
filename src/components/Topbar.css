@@ -12,6 +12,9 @@
     display: flex;
     justify-content: space-between;
 }
+.topdiv a{
+    color: rgba(52,152,219,1)
+}
 .con-div, .social-div{
     display: flex;
     gap: 20px;
