@@ -48,13 +48,17 @@
         display: none;
     }
     .slide-show{
-        display: block;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
         width: 80%;
         margin: 0 auto;
         /* border: 1px solid red; */
     }
     .slide-container{
-        border: 1px solid rgb(52,152,219);
+        /* border: 1px solid rgb(52,152,219); */
         width: 100%;
         height: 300px;
         border-bottom-left-radius: 20px;
@@ -100,7 +104,7 @@
 }
 @media screen and (max-width:500px){
     .gal-container{
-        height: 500px;
+        height: 800px;
     }
     .gal-cont h1{
         padding: 80px 0 20px;
