@@ -21,6 +21,9 @@
     justify-content: space-between;
     outline: black;
 }
+.News-cont h1{
+    color:#152235;
+}
 @media screen and (max-width:800px){
     .News-cont h1{
         font-size: 1.5rem;

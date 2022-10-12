@@ -13,7 +13,7 @@
     justify-content: space-between;
 }
 .topdiv a{
-    color: rgba(52,152,219,1)
+    color:#152235
 }
 .con-div, .social-div{
     display: flex;
@@ -26,7 +26,7 @@
 .map-div{
     display: flex;
     gap: 5px;
-    color: rgba(52,152,219,1);
+    color: #152235;
 }
 @media screen and (max-width:800px){
     .topdiv{

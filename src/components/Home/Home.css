@@ -3,7 +3,7 @@
     height: 800px;
     background-color: #5fdae0;
     position: relative;
-    color: black;
+    color: #152235;
 }
 .dark-bg img{
     width: 100%;
@@ -19,7 +19,7 @@
     top: 33%;
     left: 9rem;
     text-align: center;
-    color: black;
+    color: #152235;
 }
 .text-div h1{
     font-size: 3rem;
@@ -64,8 +64,8 @@
     font-family: 'Bree Serif', sans-serif;
 }
 .top-but button:hover{
-  border: 1px solid black;
-  background-color:black;
+  border: 1px solid #152235;
+  background-color:#152235;
   color: white;
 }
 @media screen and (max-width:1050px){

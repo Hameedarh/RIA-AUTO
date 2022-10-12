@@ -18,6 +18,7 @@
 .serdiv{
     display: flex;
     width: 100%;
+    color: #152235;
 }
 .serdiv1, .serdiv2{
     flex: 50%;
