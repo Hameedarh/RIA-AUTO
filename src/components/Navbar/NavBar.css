@@ -125,14 +125,14 @@
 @media screen and (max-width:500px){
   .nameimg h3{
     font-size: 20px;
-    color: #152235 ;
+    color: white ;
   }
 }
 @media screen and (max-width:350px){
   .nameimg h3{
     text-align: center;
     font-size: 15px;
-    color: #152235 ;
+    color: white ;
     margin-right: 20px;
   }
 }
@@ -140,7 +140,7 @@
   .nameimg h3{
     text-align: center;
     font-size: 8px;
-    color: #152235 ;
+    color: white ;
     /* margin-right: 20px; */
   }
 }
