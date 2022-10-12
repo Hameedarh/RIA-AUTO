@@ -19,7 +19,7 @@ function Gallery() {
             <h1>Our Gallery</h1>
             <div className='img-container'>
                 <div className='img-cont'>
-                    <img src={ria1} alt="gallery"/>
+                    <img src={ria7} alt="gallery"/>
                 </div>
                 <div className='img-cont'>
                     <img src={ria2} alt="gallery"/>
@@ -34,7 +34,7 @@ function Gallery() {
                     <img src={ria3} alt="gallery"/>
                 </div>
                 <div className='img-cont'>
-                    <img src={ria6} alt="gallery"/>
+                    <img src={ria8} alt="gallery"/>
                 </div>
             </div>
             <div className="slide-show">
@@ -42,7 +42,7 @@ function Gallery() {
                     <div class="slide-wrapper">
                         <img src={ria1} alt="gallery"/>
                         <img src={ria9} alt="gallery"/>
-                        <img src={ria4} alt="gallery"/>
+                        <img src={ria2} alt="gallery"/>
                         <img src={ria5} alt="gallery"/>
                         <img src={ria4} alt="gallery"/>
                         <img src={ria20} alt="gallery"/>
@@ -52,7 +52,7 @@ function Gallery() {
                     <div class="slide-wrapper">
                         <img src={ria7} alt="gallery"/>
                         <img src={ria2} alt="gallery"/>
-                        <img src={ria3} alt="gallery"/>
+                        <img src={ria4} alt="gallery"/>
                         <img src={ria5} alt="gallery"/>
                         <img src={ria8} alt="gallery"/>
                         <img src={ria6} alt="gallery"/>
