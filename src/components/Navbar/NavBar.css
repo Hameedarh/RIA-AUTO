@@ -63,7 +63,7 @@
    /* font-weight: bold; */
 }
 .nav-bar li:hover{
-    color:#043c7c;
+    color:#152235;
     background-color: white;
     border-radius: 2px;
     /* padding: 2px; */
@@ -119,20 +119,20 @@
   }
   .nameimg h3{
     font-size: 25px;
-    color: #043c7c ;
+    color: #152235;
   }
 }
 @media screen and (max-width:500px){
   .nameimg h3{
     font-size: 20px;
-    color: white ;
+    color: #152235 ;
   }
 }
 @media screen and (max-width:350px){
   .nameimg h3{
     text-align: center;
     font-size: 15px;
-    color: white ;
+    color: #152235 ;
     margin-right: 20px;
   }
 }
@@ -140,7 +140,7 @@
   .nameimg h3{
     text-align: center;
     font-size: 8px;
-    color: white ;
+    color: #152235 ;
     /* margin-right: 20px; */
   }
 }
