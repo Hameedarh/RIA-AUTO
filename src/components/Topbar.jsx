@@ -10,17 +10,17 @@ function Topbar() {
                 <div className='loc-div'>
                     <div className='map-div'>
                         <MapPin size={20} />
-                        <h4>Ungwan Yellow, 900109</h4>
+                        <p>Ungwan Yellow, 900109</p>
                     </div>
                     <div className='map-div'>
                         <Phone size={20} />
-                        <a href="https://wa.me/08163764664" ><h4>08163764664</h4></a>
+                        <a href="https://wa.me/08163764664" ><p>08163764664</p></a>
                     </div>
                 </div>
                 
                 <div className='map-div'>
                     <EnvelopeOpen size={20} />
-                    <a href="mailto:abisolahamidat@gmail.com"><h4>abisolahamidat@gmail.com</h4></a>
+                    <a href="mailto:abisolahamidat@gmail.com"><p>abisolahamidat@gmail.com</p></a>
                 </div>
             </div>
             <div className='social-div'>

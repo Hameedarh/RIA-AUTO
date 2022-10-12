@@ -12,8 +12,8 @@ function Contact() {
                         <House size={32} color="#152235" background="#152235" />
                     </div>
                     <div>
-                        <h3>Location</h3>
-                        <h4>Ungwan Yellow, Apo, Abuja</h4>
+                        <h4>Location</h4>
+                        <p>Ungwan Yellow, Apo, Abuja</p>
                     </div>
                     {/* <Envelope size={32} color="#49c02b"/> */}
                 </div>
@@ -22,8 +22,8 @@ function Contact() {
                         <Phone size={32} color="#152235" background="#152235" />
                     </div>
                     <div>
-                        <h3>Phone Number</h3>
-                        <a href="https://wa.me/08163764664" ><h4  className='con-info'>08163764664</h4></a>
+                        <h4>Phone Number</h4>
+                        <a href="https://wa.me/08163764664" ><p  className='con-info'>08163764664</p></a>
                     </div>
                     {/* <Envelope size={32} color="#49c02b"/> */}
                 </div>
@@ -32,8 +32,8 @@ function Contact() {
                         <Envelope size={32} color="#152235" background="#152235" />
                     </div>
                     <div>
-                        <h3>Email</h3>
-                        <a href="mailto:abisolahamidat@gmail.com"><h4 className='con-info'>abisolahamidat@gmail.com</h4></a>
+                        <h4>Email</h4>
+                        <a href="mailto:abisolahamidat@gmail.com"><p className='con-info'>abisolahamidat@gmail.com</p></a>
                     </div>
                 </div>
             </div>

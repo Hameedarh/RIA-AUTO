@@ -32,7 +32,7 @@
     .topdiv{
         display: none;
     }
-    .topwidth h4{
+    .topwidth p{
         font-size: 12px;
     }
     
@@ -59,7 +59,7 @@
     .topdiv{
         height: 100px;
     }
-    .topwidth h4{
+    .topwidth p{
         font-size: 10px;
     }
     .loc-div{

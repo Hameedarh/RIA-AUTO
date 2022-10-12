@@ -8,8 +8,8 @@ function Service() {
             <h1>Our Services</h1>
             <div className='serdiv'>
                 <div className='serdiv1'>
-                    <h2>RIA Auto Refurbishment Centre is the leading destination for vehicle refurbishment in Abuja.
-                    high quality sikkens products for painting with post paint maintenance service.</h2>
+                    <p className='ser-text-left'>RIA Auto Refurbishment Centre is the leading destination for vehicle refurbishment in Abuja.
+                    high quality sikkens products for painting with post paint maintenance service.</p>
                 </div>
                 <div className='serdiv2'>
                     <p>We use <span style={{color:"rgb(52,152,219) "}}>High-Quality</span> paints, automated baking oven, car waxing/buffing to ensure high quality of service is delivered to our prestigious clients/customers </p>
