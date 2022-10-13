@@ -38,11 +38,13 @@
 }
 .serdiv1{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    flex-direction: column;
     align-items: center;
-}
-.serdiv1{
     flex: 60%;
+}
+.serdiv1 img{
+    margin-top: 10px;
 }
 
 .serdiv2{
@@ -99,10 +101,11 @@
 }
 @media screen and (max-width:500px){
     .service-container{
-        height: 470px;
+        height: 500px;
     }
     .serdiv2 img{
-        width: 300px;
+        width: 380px;
+        height: 150px;
     }
     .service-cont h1{
         font-size: 1.5rem;
