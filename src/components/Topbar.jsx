@@ -10,11 +10,11 @@ function Topbar() {
                 <div className='loc-div'>
                     <div className='map-div'>
                         <MapPin size={20} />
-                        <p>Ungwan Yellow, 900109</p>
+                        <p>Plot 1486, Cadastral Zone C12 Kabusa District, Abuja</p>
                     </div>
                     <div className='map-div'>
                         <Phone size={20} />
-                        <a href="https://wa.me/08163764664" ><p>08163764664</p></a>
+                        <a href="https://wa.me/08033041929" ><p>08033041929</p></a>
                     </div>
                 </div>
                 

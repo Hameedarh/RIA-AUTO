@@ -13,7 +13,7 @@ function Contact() {
                     </div>
                     <div>
                         <h4>Location</h4>
-                        <p>Ungwan Yellow, Apo, Abuja</p>
+                        <p>Plot 1486, Cadastral Zone C12 Kabusa District, Abuja</p>
                     </div>
                     {/* <Envelope size={32} color="#49c02b"/> */}
                 </div>
@@ -23,7 +23,7 @@ function Contact() {
                     </div>
                     <div>
                         <h4>Phone Number</h4>
-                        <a href="https://wa.me/08163764664" ><p  className='con-info'>08163764664</p></a>
+                        <a href="https://wa.me/08033041929" ><p  className='con-info'>08033041929</p></a>
                     </div>
                     {/* <Envelope size={32} color="#49c02b"/> */}
                 </div>

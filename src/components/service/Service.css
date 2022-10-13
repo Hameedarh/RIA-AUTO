@@ -9,24 +9,50 @@
     width: 80%;
     margin: 0 auto;
 }
+.center-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ 
+}
 .service-cont h1{
-    padding: 100px 0 20px;
+    padding: 80px 0 5px;
     text-align: center;
     /* margin: 20px 0; */
     color: rgb(52,152,219) ;
+}
+.service-cont hr{
+    width: 100px;
+    height: 1px;
+    background-color: rgb(52,152,219);
+    border: 1px solid rgb(52,152,219);
 }
 .serdiv{
     display: flex;
     width: 100%;
     color: #152235;
+    /* border: 1px solid brown; */
+    margin-top: 2rem;
 }
-.serdiv1, .serdiv2{
-    flex: 50%;
+.serdiv1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
+.serdiv1{
+    flex: 60%;
+}
+
 .serdiv2{
-    padding-left: 30px;
+    width: 50%;
+    flex: 40%;
+    /* padding-left: 30px; */
     /* color: #043c7c ; */
-    border-left: 1px solid #043c7c ;
+    /* border-left: 1px solid #043c7c ; */
+}
+.serdiv2 img{
+    width: 400px;
 }
 .bord-sec{
     display: flex;

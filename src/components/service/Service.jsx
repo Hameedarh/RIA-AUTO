@@ -1,46 +1,25 @@
 import React from 'react'
 import './Service.css'
+import paintgun from '../../assets/ria4.jpg'
 
 function Service() {
   return (
     <div className='service-container' id='services'>
         <div  className='service-cont'>
-            <h1>Our Services</h1>
+            <div className='center-text'>
+                <h1>Our Services</h1>
+                <hr/>
+            </div>
             <div className='serdiv'>
                 <div className='serdiv1'>
-                    <p className='ser-text-left'>RIA Auto Refurbishment Centre is the leading destination for vehicle refurbishment in Abuja.
-                    high quality sikkens products for painting with post paint maintenance service.</p>
+                    <p className='ser-text-left'>
+                    We use <span style={{color:"rgb(52,152,219) "}}>High-Quality</span> paints, automated baking oven, car waxing/buffing to ensure high quality of service is delivered to our prestigious clients/customers
+                    </p>
                 </div>
                 <div className='serdiv2'>
-                    <p>We use <span style={{color:"rgb(52,152,219) "}}>High-Quality</span> paints, automated baking oven, car waxing/buffing to ensure high quality of service is delivered to our prestigious clients/customers </p>
+                    <img src={paintgun} alt="paintgun"/>
                 </div>
             </div>
-            {/* <section className='bord-sec'>
-                <div className='ser-bord'>
-                    <div>
-                        <h6>BREAK OIL</h6>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam in molestiae ipsum.</p>
-                    </div>
-                </div>
-                <div className='ser-bord'>
-                    <div>
-                        <h6>BREAK OIL</h6>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam in molestiae ipsum.</p>
-                    </div>
-                </div>
-                <div className='ser-bord'>
-                    <div>
-                        <h6>BREAK OIL</h6>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam in molestiae ipsum.</p>
-                    </div>
-                </div>
-                <div className='ser-bord'>
-                    <div>
-                        <h6>BREAK OIL</h6>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam in molestiae ipsum.</p>
-                    </div>
-                </div>
-            </section> */}
         </div>
     </div>
   )
