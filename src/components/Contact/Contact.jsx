@@ -11,7 +11,7 @@ function Contact() {
         <section className='con-cont'>
             <div>
                 <div className='con-icons'>
-                    <div className='round-div round-div1'>
+                    <div className='round-div'>
                         <House size={32} color="#152235" background="#152235" />
                     </div>
                     <div>
