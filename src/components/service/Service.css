@@ -93,7 +93,10 @@
 }
 @media screen and (max-width:500px){
     .service-container{
-        height: 450px;
+        height: 470px;
+    }
+    .serdiv2 img{
+        width: 250px;
     }
     .service-cont h1{
         font-size: 1.5rem;
@@ -108,7 +111,7 @@
     .serdiv2{
         padding-left: 30px;
         /* color: #043c7c ; */
-        border-left: 1px solid #043c7c ;
+        /* border-left: 1px solid #043c7c ; */
         margin-top: 30px;
         font-size: 0.9rem;
     }
