@@ -57,7 +57,7 @@
         height: 470px;
     }
     .gal-cont h1{
-        padding: 70px 0 20px;
+        padding: 70px 0 5px;
     }
     .img-container{
         display: none;
@@ -132,7 +132,7 @@
         height: 800px;
     } */
     .gal-cont h1{
-        padding: 70px 0 20px;
+        padding: 70px 0 5px;
         font-size: 1.5rem;
     }
 }
