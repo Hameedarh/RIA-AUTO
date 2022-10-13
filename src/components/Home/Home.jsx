@@ -11,7 +11,7 @@ function Home() {
                 RIA AutoRefurbishing Center
             </h1>
             <p>RIA Auto Refurbishment Centre is the leading destination for vehicle refurbishment in Abuja.</p> 
-            <p>high quality sikkens products for painting with post paint maintenance service.</p>
+            <p>We use high quality sikkens products: a highly durable, high build, solvent-borne opaque that provides a satin paint-like finish on exterior surfaces.</p>
             <div className='top-but'>
                 <button><a href="#services">Read More</a></button>
                 <button><a href="#contact">Contact us</a></button>
