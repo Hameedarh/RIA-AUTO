@@ -48,6 +48,7 @@
 .serdiv2{
     width: 50%;
     flex: 40%;
+    margin-left: 50px;
     /* padding-left: 30px; */
     /* color: #043c7c ; */
     /* border-left: 1px solid #043c7c ; */
@@ -75,6 +76,7 @@
 }
 .ser-text-left{
     font-size: 1.4rem;
+    text-align: justify;
 }
 @media screen and (max-width:1050px){
     .serdiv1{
@@ -112,13 +114,15 @@
     .ser-text-left{
         font-size: 0.9rem;
         text-align: justify;
+        
     }
     .serdiv2{
-        padding-left: 30px;
+        /* padding-left: 30px; */
         /* color: #043c7c ; */
         /* border-left: 1px solid #043c7c ; */
         margin-top: 30px;
         font-size: 0.9rem;
+        margin-left: 0px;
     }
     
 }

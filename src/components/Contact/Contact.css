@@ -37,7 +37,7 @@
 }
 .con-icons{
     display: flex;
-    gap: 20px;
+    gap: 15px;
     margin-bottom: 30px;
 }
 .round-div{
@@ -47,7 +47,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 40px;
+    width: 45px;
+    height: 45px;
 }
 .con-info{
     color: white;
