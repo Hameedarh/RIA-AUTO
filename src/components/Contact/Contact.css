@@ -14,13 +14,26 @@
     justify-content: space-between;
     /* padding: 100px 0px 0px; */
 }
+.con-center{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.con-center hr{
+    width: 100px;
+    height: 1px;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 20px;
+}
 .con-container h1{
     text-align: center;
     color:white;
     padding: 100px 0 0px;
 }
 .con-head{
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 .con-icons{
     display: flex;
@@ -90,5 +103,9 @@
     }
     .con-icons h4{
         font-size: 1rem;
+    }
+    .round-div1{
+        width: 45px;
+        height: 45px;
     }
 }

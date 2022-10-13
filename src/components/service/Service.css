@@ -27,6 +27,7 @@
     height: 1px;
     background-color: rgb(52,152,219);
     border: 1px solid rgb(52,152,219);
+    border-radius: 20px;
 }
 .serdiv{
     display: flex;
@@ -88,7 +89,10 @@
         height: 450px;
     }
     .service-cont h1{
-        padding: 80px 0 20px;
+        padding: 60px 0 20px;
+    }
+    .serdiv1, .serdiv2{
+        flex: 50%;
     }
 }
 @media screen and (max-width:500px){
@@ -96,7 +100,7 @@
         height: 470px;
     }
     .serdiv2 img{
-        width: 250px;
+        width: 300px;
     }
     .service-cont h1{
         font-size: 1.5rem;
@@ -107,6 +111,7 @@
     }
     .ser-text-left{
         font-size: 0.9rem;
+        text-align: justify;
     }
     .serdiv2{
         padding-left: 30px;
@@ -117,8 +122,14 @@
     }
     
 }
-@media screen and (max-width:300px){
+@media screen and (max-width:350px){
     .service-container{
         height: 500px;
+    }
+    .service-cont h1{
+        padding: 60px 0 5px;
+    }
+    .serdiv2 img{
+        width: 250px;
     }
 }

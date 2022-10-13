@@ -17,7 +17,10 @@ function Gallery() {
   return (
     <div className='gal-container' id='gallery'>
         <div className='gal-cont'>
-            <h1>Our Gallery</h1>
+            <div className='galcenter'>
+                <h1>Our Gallery</h1>
+                <hr/>
+            </div>
             <div className='img-container'>
                 <div className='img-cont'>
                     <img src={ria7} alt="gallery"/>
@@ -42,24 +45,22 @@ function Gallery() {
                 </div>
             </div>
             <div className="slide-show">
-                <div class="slide-container">
-                    <div class="slide-wrapper">
-                        <img src={ria1} alt="gallery"/>
-                        <img src={ria9} alt="gallery"/>
-                        <img src={ria2} alt="gallery"/>
-                        <img src={ria5} alt="gallery"/>
-                        <img src={ria4} alt="gallery"/>
-                        <img src={ria20} alt="gallery"/>
+                <div className='slide-wrap'>
+                    <div>
+                        <img src={ria1} alt="gallery" className='pic1'/>
+                        <img src={ria9} alt="gallery" className='pic2'/>
+                        <img src={ria2} alt="gallery" className='pic3'/>
+                        
                     </div>
                 </div>
-                <div class="slide-container">
-                    <div class="slide-wrapper">
-                        <img src={ria7} alt="gallery"/>
-                        <img src={ria2} alt="gallery"/>
-                        <img src={ria4} alt="gallery"/>
-                        <img src={ria5} alt="gallery"/>
-                        <img src={ria8} alt="gallery"/>
-                        <img src={ria6} alt="gallery"/>
+            </div>
+            <div className='slide-show'>
+            <div className='slide-wrap'>
+                    <div>
+                        <img src={ria3} alt="gallery" className='pic4'/>
+                        <img src={ria7} alt="gallery" className='pic5'/>
+                        <img src={ria6} alt="gallery" className='pic6'/>
+                        
                     </div>
                 </div>
             </div>

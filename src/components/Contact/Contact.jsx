@@ -4,11 +4,14 @@ import {Envelope, House, Phone} from 'phosphor-react'
 function Contact() {
   return (
     <div className='con-container' id='contact'>
-                <h1 className='con-head'>Contact info</h1>
+        <div className='con-center'>
+            <h1 className='con-head'>Contact info</h1>
+            <hr/>
+        </div>
         <section className='con-cont'>
             <div>
                 <div className='con-icons'>
-                    <div className='round-div'>
+                    <div className='round-div round-div1'>
                         <House size={32} color="#152235" background="#152235" />
                     </div>
                     <div>

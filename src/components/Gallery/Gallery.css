@@ -1,18 +1,18 @@
 .gal-container{
-    width: 100vw;
+    width: 100%;
     font-family:  'Bree Serif', sans-serif;
     /* margin: 0 auto; */
     height: fit-content;
     padding: 0px 0px 40px;
 }
 .gal-cont{
-    width: 80vw;
+    width: 80%;
     margin: 0 auto ;
 }
 .gal-cont h1{
     text-align: center;
     color: rgb(52,152,219);
-    padding: 100px 0 20px;
+    padding: 70px 0 5px;
 }
 .img-container{
     display: flex;
@@ -20,6 +20,7 @@
     flex-wrap: wrap;
     justify-content: center;
     gap: 20px;
+    margin-top: 2rem;
 }
 .img-cont{
     border: 1px solid rgb(52,152,219);
@@ -37,12 +38,26 @@
 .slide-show{
     display: none;
 }
+.galcenter{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ 
+}
+.galcenter hr{
+    width: 100px;
+    height: 1px;
+    background-color: rgb(52,152,219);
+    border: 1px solid rgb(52,152,219);
+    border-radius: 20px;
+}
 @media screen and (max-width:800px){
     .gal-container{
-        height: 500px;
+        height: 470px;
     }
     .gal-cont h1{
-        padding: 80px 0 20px;
+        padding: 70px 0 20px;
     }
     .img-container{
         display: none;
@@ -52,71 +67,77 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        position: relative;
         gap: 20px;
-        width: 80%;
-        margin: 0 auto;
+        width: 100%;
+        margin: 20px auto 0;
         /* border: 1px solid red; */
+        height: 270px;
     }
+.pic1, 
+.pic2, 
+.pic3, .pic4, .pic5, .pic6{
+	position: absolute;
+  /* display: block; */
+	top: 0.3em;
+  
+  width: 80%;
+  height: 270px;
+	animation-duration: 20s;
+	animation-timing-function: ease-in-out;
+	animation-iteration-count: infinite;
+    border: 1px solid rgb(52,152,219);
+    box-shadow: 5px 15px 20px rgba(0,0,0,0.3);
+}
+
+.pic1, .pic4{
+	animation-name: anim-1;
+}
+
+.pic2, .pic5{
+	animation-name: anim-2;
+}
+
+.pic3, .pic6{
+	animation-name: anim-3;
+}
+
+@keyframes anim-1 {
+	0%, 8.3% { left: -100%; opacity: 0; }
+  8.3%,25% { left: 25%; opacity: 1; }
+  33.33%, 100% { left: 110%; opacity: 0; }
+}
+
+@keyframes anim-2 {
+	0%, 33.33% { left: -100%; opacity: 0; }
+  41.63%, 58.29% { left: 25%; opacity: 1; }
+  66.66%, 100% { left: 110%; opacity: 0; }
+}
+
+@keyframes anim-3 {
+	0%, 66.66% { left: -100%; opacity: 0; }
+  74.96%, 91.62% { left: 25%; opacity: 1; }
+  100% { left: 110%; opacity: 0; }
+}
    
-    .slide-container{
-        border: 1px solid rgb(52,152,219);
-        width: 100%;
-        height: 300px;
-        /* border-bottom-left-radius: 20px; */
-        /* border-top-right-radius: 20px; */
-        overflow: hidden;
-        box-shadow: 5px 15px 20px rgba(0,0,0,0.3);
-    }
-    .slide-wrapper{
-        width: 100%;
-        display: flex;
-        animation: slide 16s infinite;
-    }
-    .slide-wrapper img{
-        width:  100%;
-        height: 300px;
-    }
-    @keyframes slide{
-        0%{
-            transform: translateX(0);
-        }
-        25%{
-            transform: translateX(0);
-        }
-        30%{
-            transform: translateX(-100%);
-        }
-        50%{
-            transform: translateX(-100%);
-        }
-        55%{
-            transform: translateX(-200%);
-        }
-        75%{
-            transform: translateX(-200%);
-        }
-        80%{
-            transform: translateX(-300%);
-        }
-        100%{
-            transform: translateX(-300%);
-        }
-    }
+  
 }
 @media screen and (max-width:800px){
     .gal-container{
-        height: 870px;
-    }
-    .slide-wrapper img{
-        width: 600px;
+        height: 700px;
     }
 }
 @media screen and (max-width:500px){
-    .gal-container{
+    /* .gal-container{
         height: 800px;
-    }
+    } */
     .gal-cont h1{
-        padding: 80px 0 20px;
+        padding: 70px 0 20px;
         font-size: 1.5rem;
     }
+}
+@media screen and (max-width:300px){
+    /* .gal-container{
+        height: 450px;
+    } */
 }
