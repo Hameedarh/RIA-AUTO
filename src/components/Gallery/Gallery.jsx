@@ -17,7 +17,7 @@ import ria9 from '../../assets/ria19.jpg'
 function Gallery() {
     
 const fadeImages = [
-    "Pictures/ria11.jpg",
+    "Pictures/ria13.jpg",
     "Pictures/ria12.jpg",
     "Pictures/ria17.jpg",
     "Pictures/ria18.jpg"
