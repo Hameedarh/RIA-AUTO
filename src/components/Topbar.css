@@ -1,7 +1,7 @@
 .topdiv{
     position: fixed;
     position: absolute;
-    z-index: 2;
+    z-index: 16;
     background-color: white;
     padding: 3px;
     width: 100%;
@@ -32,37 +32,5 @@
     .topdiv{
         display: none;
     }
-    .topwidth p{
-        font-size: 12px;
-    }
     
-}
-@media screen and (max-width:500px){
-    .topdiv{
-        height: 80px;
-    }
-    .topwidth{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-    .con-div{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        gap: 5px;
-    }
-}
-@media screen and (max-width:250px){
-    .topdiv{
-        height: 100px;
-    }
-    .topwidth p{
-        font-size: 10px;
-    }
-    .loc-div{
-        display: block;
-    }
 }
