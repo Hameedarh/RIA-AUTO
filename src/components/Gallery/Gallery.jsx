@@ -9,7 +9,7 @@ import ria6 from '../../assets/ria16.jpg'
 import ria7 from '../../assets/ria17.jpg'
 import ria8 from '../../assets/ria18.jpg'
 import ria9 from '../../assets/ria19.jpg'
-import ria20 from '../../assets/ria20.jpg'
+// import ria20 from '../../assets/ria20.jpg'
 
 
 function Gallery() {
