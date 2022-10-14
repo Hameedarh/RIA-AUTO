@@ -45,24 +45,7 @@ function Gallery() {
                 </div>
             </div>
             <div className="slide-show">
-                <div className='slide-wrap'>
-                    <div>
-                        <img src={ria1} alt="gallery" className='pic1'/>
-                        <img src={ria9} alt="gallery" className='pic2'/>
-                        <img src={ria2} alt="gallery" className='pic3'/>
-                        
-                    </div>
-                </div>
-            </div>
-            <div className='slide-show'>
-            <div className='slide-wrap'>
-                    <div>
-                        <img src={ria3} alt="gallery" className='pic4'/>
-                        <img src={ria7} alt="gallery" className='pic5'/>
-                        <img src={ria6} alt="gallery" className='pic6'/>
-                        
-                    </div>
-                </div>
+                
             </div>
         </div>
     </div>

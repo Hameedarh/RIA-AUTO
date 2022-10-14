@@ -62,65 +62,7 @@
     .img-container{
         display: none;
     }
-    .slide-show{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        position: relative;
-        gap: 20px;
-        width: 100%;
-        margin: 20px auto 0;
-        /* border: 1px solid red; */
-        height: 270px;
-        overflow-x: hidden;
-    }
-.pic1, 
-.pic2, 
-.pic3, .pic4, .pic5, .pic6{
-	position: absolute;
-  /* display: block; */
-	top: 0.3em;
-  
-  width: 80%;
-  height: 270px;
-	animation-duration: 20s;
-	animation-timing-function: ease-in-out;
-	animation-iteration-count: infinite;
-    border: 1px solid rgb(52,152,219);
-    box-shadow: 5px 15px 20px rgba(0,0,0,0.3);
-}
-
-.pic1, .pic4{
-	animation-name: anim-1;
-}
-
-.pic2, .pic5{
-	animation-name: anim-2;
-}
-
-.pic3, .pic6{
-	animation-name: anim-3;
-}
-
-@keyframes anim-1 {
-	0%, 8.3% { left: -100%; opacity: 0; }
-  8.3%,25% { left: 25%; opacity: 1; }
-  33.33%, 100% { left: 110%; opacity: 0; }
-}
-
-@keyframes anim-2 {
-	0%, 33.33% { left: -100%; opacity: 0; }
-  41.63%, 58.29% { left: 25%; opacity: 1; }
-  66.66%, 100% { left: 110%; opacity: 0; }
-}
-
-@keyframes anim-3 {
-	0%, 66.66% { left: -100%; opacity: 0; }
-  74.96%, 91.62% { left: 25%; opacity: 1; }
-  100% { left: 110%; opacity: 0; }
-}
-   
+    
   
 }
 @media screen and (max-width:800px){
