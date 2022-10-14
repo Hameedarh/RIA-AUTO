@@ -80,6 +80,10 @@
   .dark-bg, .dark-bg img{
     height: 600px;
   }
+  .text-div h1{
+    font-size: 2rem;
+    letter-spacing: 0.1rem;
+   }
 }
 @media screen and (max-width:500px){
   
