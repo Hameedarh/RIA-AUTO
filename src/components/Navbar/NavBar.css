@@ -110,7 +110,8 @@
 } */
 @media screen and (max-width:850px){
   .nav-container{
-    padding: 10px 8px 0px;
+    padding: 5px 8px 0px;
+    height: 70px;
   }
   .ham{
     display: flex;

@@ -28,6 +28,11 @@
     gap: 5px;
     color: #152235;
 }
+@media screen and (max-width:1050px){
+    .con-div p{
+        font-size: 0.9rem;
+    }
+}
 @media screen and (max-width:800px){
     .topdiv{
         display: none;
