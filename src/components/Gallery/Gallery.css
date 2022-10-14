@@ -54,7 +54,7 @@
 }
 @media screen and (max-width:800px){
     .gal-container{
-        height: 470px;
+        height: 600px;
     }
     .gal-cont h1{
         padding: 70px 0 5px;
@@ -62,14 +62,16 @@
     .img-container{
         display: none;
     }
-    
-  
-}
-@media screen and (max-width:800px){
-    .gal-container{
-        height: 700px;
+    .slide-show{
+        display: block;
+        z-index: 0;
+        margin-top: 1.5rem;
+    }
+    .slide-container img {
+        height: 400px;
     }
 }
+
 @media screen and (max-width:500px){
     /* .gal-container{
         height: 800px;
