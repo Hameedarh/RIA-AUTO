@@ -19,7 +19,8 @@ function Gallery() {
 const fadeImages = [
     "Pictures/ria11.jpg",
     "Pictures/ria12.jpg",
-    "Pictures/ria13.jpg"
+    "Pictures/ria17.jpg",
+    "Pictures/ria18.jpg"
   ];
   return (
     <div className='gal-container' id='gallery'>
@@ -62,6 +63,9 @@ const fadeImages = [
                         </div>
                         <div className="each-fade">
                         <img src={fadeImages[2]}  alt="pic1"/>
+                        </div>
+                        <div className="each-fade">
+                        <img src={fadeImages[3]}  alt="pic1"/>
                         </div>
                     </Fade>
                 </div>
