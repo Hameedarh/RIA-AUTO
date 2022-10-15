@@ -1,11 +1,33 @@
 import React from 'react'
 import './Home.css'
-import ria from '../../assets/ria6.jpg'
+import { Fade } from "react-slideshow-image";
+import "react-slideshow-image/dist/styles.css";
 
 function Home() {
+  const fadeImages = [
+    "Pictures/ria5.jpg",
+    "Pictures/ria6.jpg",
+    "Pictures/ria7.jpg",
+    "Pictures/ria9.jpg"
+  ];
   return (
     <div className='dark-bg' id='Home'>
-        <img src={ria} alt="profile"/>
+      <div className="slide-container">
+        <Fade>
+          <div className="each-fade">
+          <img src={fadeImages[0]}  alt="pic1"/>
+          </div>
+          <div className="each-fade">
+          <img src={fadeImages[1]} alt="pic1"/>
+          </div>
+          <div className="each-fade">
+          <img src={fadeImages[2]}  alt="pic1"/>
+          </div>
+          <div className="each-fade">
+          <img src={fadeImages[3]}  alt="pic1"/>
+          </div>
+        </Fade>
+      </div>
         <div className='text-div'>
             <h1>
                 RIA AutoRefurbishing Center

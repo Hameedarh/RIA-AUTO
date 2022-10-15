@@ -1,9 +1,9 @@
 .dark-bg{
     width: 100%;
     height: 700px;
-    background-color: #5fdae0;
+    background-color: #152235;
     position: relative;
-    color: #152235;
+    color: white;
 }
 .dark-bg img{
     width: 100%;
@@ -19,7 +19,8 @@
     top: 33%;
     left: 9rem;
     text-align: center;
-    color: #152235;
+    color: white;
+    z-index: 13;
 }
 .text-div h1{
     font-size: 3rem;

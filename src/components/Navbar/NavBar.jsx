@@ -19,9 +19,9 @@ function NavBar() {
                     <a href='#contact'><li>Contact</li></a>
                 </ul>
             </nav>
-            <div className='but-nav'>
+            {/* <div className='but-nav'>
                 <button className='nav-but'>Make an Appointment</button>
-            </div>
+            </div> */}
             <div className='ham'>
                 <Middle/>
             </div>
