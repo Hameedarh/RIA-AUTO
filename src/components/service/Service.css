@@ -3,7 +3,8 @@
     background: whitesmoke;
     font-family:  'Bree Serif', sans-serif;
     margin: 0 auto;
-    height: 470px;
+    padding: 0px 0px 20px;
+    height: fit-content;
 }
 .service-cont{
     width: 80%;
@@ -31,47 +32,27 @@
 }
 .serdiv{
     display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
     width: 100%;
     color: #152235;
     /* border: 1px solid brown; */
     margin-top: 2rem;
 }
-.serdiv1{
+.serdiv1, .serdiv2{
     display: flex;
     justify-content: center;
-    flex-direction: column;
     align-items: center;
-    flex: 60%;
 }
-.serdiv1 img{
-    margin-top: 10px;
-}
-
 .serdiv2{
-    width: 50%;
-    flex: 40%;
-    margin-left: 50px;
-    /* padding-left: 30px; */
-    /* color: #043c7c ; */
-    /* border-left: 1px solid #043c7c ; */
+    margin-top: 50px;
+    gap: 2rem;
 }
 .serdiv2 img{
-    width: 400px;
-}
-.bord-sec{
-    display: flex;
-    gap: 3rem;
-}
-.ser-bord{
-    width: 25%;
-    height: 250px;
-    margin-top: 3rem;
-    /* transition: 10s ease-in; */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    border: 1px solid #043c7c ;
+    border: 1px solid rgb(52,152,219);
+    width: 250px;
+    height: 300px;
     border-bottom-left-radius: 20px;
     border-top-right-radius: 20px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
@@ -89,28 +70,27 @@
     .ser-text-left{
         font-size: 1.2rem;
     }
-    .service-container{
-        height: 450px;
-    }
     .service-cont h1{
         padding: 60px 0 20px;
     }
-    .serdiv1, .serdiv2{
-        flex: 50%;
-    }
-}
-@media screen and (max-width:500px){
-    .service-container{
-        height: 500px;
+    .serdiv2{
+        flex-wrap: wrap;
     }
     .serdiv2 img{
-        width: 300px;
-        height: 150px;
+        height: 250px;
+    }
+
+}
+@media screen and (max-width:500px){
+   
+    .serdiv2 img{
+        width: 250px;
+        height: 300px;
     }
     .service-cont h1{
         font-size: 1.5rem;
     }
-    .serdiv{
+    .serdiv, .serdiv2{
         display: flex;
         flex-direction: column;
     }
@@ -120,19 +100,12 @@
         
     }
     .serdiv2{
-        /* padding-left: 30px; */
-        /* color: #043c7c ; */
-        /* border-left: 1px solid #043c7c ; */
         margin-top: 30px;
-        font-size: 0.9rem;
-        margin-left: 0px;
     }
     
 }
 @media screen and (max-width:350px){
-    .service-container{
-        height: 500px;
-    }
+
     .service-cont h1{
         padding: 60px 0 5px;
     }

@@ -14,11 +14,11 @@ const galImages = [
     },
     {
     id: 2,
-    img: "Pictures/ria12.jpg"
+    img: "Pictures/ria17.jpg"
     },
     {
     id: 3,
-    img: "Pictures/ria17.jpg"
+    img: "Pictures/ria12.jpg"
     },
     {
     id: 4,
@@ -34,9 +34,9 @@ const galImages = [
     }
   ];
   const fadeImages = [
-    "Pictures/ria12.jpg",
-    "Pictures/ria13.jpg",
-    "Pictures/ria23.jpeg",
+      "Pictures/ria13.jpg",
+      "Pictures/ria23.jpeg",
+      "Pictures/ria12.jpg",
     "Pictures/ria18.jpg",
     "Pictures/ria27.jpeg"
   ];

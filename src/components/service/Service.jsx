@@ -1,7 +1,5 @@
 import React from 'react'
 import './Service.css'
-import paintgun from '../../assets/ria4.jpg'
-import sik from '../../assets/sikkens.png'
 
 function Service() {
   return (
@@ -16,10 +14,11 @@ function Service() {
                     <p className='ser-text-left'>
                     We use <span style={{color:"rgb(52,152,219) "}}>High-Quality</span> paints, automated baking oven, car waxing/buffing to ensure high quality of service is delivered to our prestigious clients/customers
                     </p>
-                    <img src={sik} alt="siklogo" width={120}/>
                 </div>
                 <div className='serdiv2'>
-                    <img src={paintgun} alt="paintgun"/>
+                    <img src="Pictures/ria27.jpeg" alt="buffing"/>
+                    <img src="Pictures/ria22.jpeg" alt="car in an oven"/>
+                    <img src="Pictures/ria21.jpeg" alt="car in an oven"/>
                 </div>
             </div>
         </div>

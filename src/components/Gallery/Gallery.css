@@ -23,17 +23,15 @@
     margin-top: 2rem;
 }
 .img-cont{
-    border: 1px solid rgb(52,152,219);
+    border: 1px solid #152235;
     width: 250px;
     height: 300px;
-    border-bottom-left-radius: 20px;
-    border-top-right-radius: 20px;
+    border-radius: 4px;
 }
 .img-cont img{
     width: 250px;
     height: 300px;
-    border-bottom-left-radius: 20px;
-    border-top-right-radius: 20px;
+    border-radius: 4px;
 }
 .slide-show{
     display: none;
