@@ -7,8 +7,13 @@ function Home() {
   const fadeImages = [
     "Pictures/ria5.jpg",
     "Pictures/ria6.jpg",
+    "Pictures/ria25.jpeg",
+    "Pictures/ria13.jpg",
+    "Pictures/sik.jpg",
+    "Pictures/ria24.jpeg",
     "Pictures/ria7.jpg",
-    "Pictures/ria9.jpg"
+    "Pictures/ria12.jpg",
+    "Pictures/ria18.jpg"
   ];
   return (
     <div className='dark-bg' id='Home'>
@@ -26,7 +31,22 @@ function Home() {
           <div className="each-fade">
           <img src={fadeImages[3]}  alt="pic1"/>
           </div>
-        </Fade>
+          <div className="each-fade">
+          <img src={fadeImages[4]}  alt="pic1"/>
+          </div>
+          <div className="each-fade">
+          <img src={fadeImages[5]}  alt="pic1"/>
+          </div>
+          <div className="each-fade">
+          <img src={fadeImages[6]}  alt="pic1"/>
+          </div>
+          <div className="each-fade">
+          <img src={fadeImages[7]}  alt="pic1"/>
+          </div>
+          <div className="each-fade">
+          <img src={fadeImages[8]}  alt="pic1"/>
+          </div>
+        </Fade>  
       </div>
         <div className='text-div'>
             <h1>

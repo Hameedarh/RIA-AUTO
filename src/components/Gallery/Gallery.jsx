@@ -2,25 +2,43 @@ import React from 'react'
 import { Fade } from "react-slideshow-image";
 import "react-slideshow-image/dist/styles.css";
 import './Gallery.css'
-// import ria1 from '../../assets/ria11.jpg'
-import ria2 from '../../assets/ria12.jpg'
-import ria3 from '../../assets/ria13.jpg'
-import ria4 from '../../assets/ria14.jpg'
-import ria5 from '../../assets/ria 15.jpg'
-// import ria6 from '../../assets/ria16.jpg'
-import ria7 from '../../assets/ria17.jpg'
-import ria8 from '../../assets/ria18.jpg'
-import ria9 from '../../assets/ria19.jpg'
-// import ria20 from '../../assets/ria20.jpg'
+import Gal from './Gal';
 
 
 function Gallery() {
     
-const fadeImages = [
-    "Pictures/ria13.jpg",
+const galImages = [
+    {
+    id: 1,
+    img: "Pictures/ria13.jpg"
+    },
+    {
+    id: 2,
+    img: "Pictures/ria12.jpg"
+    },
+    {
+    id: 3,
+    img: "Pictures/ria17.jpg"
+    },
+    {
+    id: 4,
+    img: "Pictures/ria18.jpg"
+    },
+    {
+    id: 5,
+    img: "Pictures/ria27.jpeg"
+    },
+    {
+    id: 6,
+    img: "Pictures/ria22.jpeg"
+    }
+  ];
+  const fadeImages = [
     "Pictures/ria12.jpg",
-    "Pictures/ria17.jpg",
-    "Pictures/ria18.jpg"
+    "Pictures/ria13.jpg",
+    "Pictures/ria23.jpeg",
+    "Pictures/ria18.jpg",
+    "Pictures/ria27.jpeg"
   ];
   return (
     <div className='gal-container' id='gallery'>
@@ -30,27 +48,13 @@ const fadeImages = [
                 <hr/>
             </div>
             <div className='img-container'>
-                <div className='img-cont'>
-                    <img src={ria7} alt="gallery"/>
-                </div>
-                <div className='img-cont'>
-                    <img src={ria2} alt="gallery"/>
-                </div>
-                <div className='img-cont'>
-                    <img src={ria4} alt="gallery"/>
-                </div>
-                <div className='img-cont'>
-                    <img src={ria9} alt="gallery"/>
-                </div>
-                <div className='img-cont'>
-                    <img src={ria3} alt="gallery"/>
-                </div>
-                <div className='img-cont'>
-                    <img src={ria8} alt="gallery"/>
-                </div>
-                <div className='img-cont'>
-                    <img src={ria5} alt="gallery"/>
-                </div>
+                {
+                    galImages.map((img)=>( 
+                        <Gal
+                        key={img.id}
+                        img={img.img}/>
+                    ))
+                }
             </div>
             <div className="slide-show">
                 <div className="slide-container">
@@ -66,6 +70,9 @@ const fadeImages = [
                         </div>
                         <div className="each-fade">
                         <img src={fadeImages[3]}  alt="pic1"/>
+                        </div>
+                        <div className="each-fade">
+                        <img src={fadeImages[4]}  alt="pic1"/>
                         </div>
                     </Fade>
                 </div>

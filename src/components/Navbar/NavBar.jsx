@@ -1,6 +1,6 @@
 import React from 'react'
 import './NavBar.css'
-import paint from '../../assets/rialogo.png'
+import paint from '../../assets/train.png'
 import Middle from '../Middle/Middle'
 
 function NavBar() {
