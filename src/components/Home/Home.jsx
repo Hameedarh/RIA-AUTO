@@ -9,7 +9,6 @@ function Home() {
     "Pictures/ria6.jpg",
     "Pictures/ria25.jpeg",
     "Pictures/ria13.jpg",
-    "Pictures/sik.jpg",
     "Pictures/ria24.jpeg",
     "Pictures/ria7.jpg",
     "Pictures/ria12.jpg",
@@ -42,9 +41,6 @@ function Home() {
           </div>
           <div className="each-fade">
           <img src={fadeImages[7]}  alt="pic1"/>
-          </div>
-          <div className="each-fade">
-          <img src={fadeImages[8]}  alt="pic1"/>
           </div>
         </Fade>  
       </div>
