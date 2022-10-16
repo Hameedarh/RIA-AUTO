@@ -18,7 +18,7 @@ function Service() {
                 <div className='serdiv2'>
                     <img src="Pictures/ria27.jpeg" alt="buffing"/>
                     <img src="Pictures/ria22.jpeg" alt="car in an oven"/>
-                    <img src="Pictures/ria21.jpeg" alt="car in an oven"/>
+                    <img src="Pictures/ria28.jpeg" alt="car in an oven"/>
                 </div>
             </div>
         </div>
